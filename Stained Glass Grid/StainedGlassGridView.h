@@ -1,6 +1,6 @@
 //
-//  SquaresView.h
-//  Squares
+//  StainedGlassGridView.h
+//  Stained Glass Grid
 //
 //  Created by William Bowers on 6/12/13.
 //  Copyright (c) 2013 William Bowers. All rights reserved.
@@ -9,7 +9,7 @@
 #import <ScreenSaver/ScreenSaver.h>
 #import "Cell.h"
 
-@interface SquaresView : ScreenSaverView <NSMenuDelegate> {
+@interface StainedGlassGridView : ScreenSaverView <NSMenuDelegate> {
     IBOutlet NSPanel *configSheet;
     IBOutlet NSSlider *paddingOption;
     IBOutlet NSSlider *columnsOption;

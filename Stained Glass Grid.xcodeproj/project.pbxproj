@@ -10,7 +10,7 @@
 		E32223251768E2C200E71234 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32223241768E2C200E71234 /* Cocoa.framework */; };
 		E32223271768E2C200E71234 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32223261768E2C200E71234 /* ScreenSaver.framework */; };
 		E32223311768E2C200E71234 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E322232F1768E2C200E71234 /* InfoPlist.strings */; };
-		E32223351768E2C200E71234 /* SquaresView.m in Sources */ = {isa = PBXBuildFile; fileRef = E32223341768E2C200E71234 /* SquaresView.m */; };
+		E32223351768E2C200E71234 /* StainedGlassGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = E32223341768E2C200E71234 /* StainedGlassGridView.m */; };
 		E322233D176913D000E71234 /* Cell.h in Headers */ = {isa = PBXBuildFile; fileRef = E322233B176913D000E71234 /* Cell.h */; };
 		E322233E176913D000E71234 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = E322233C176913D000E71234 /* Cell.m */; };
 		E3387E80176A71040016043F /* ConfigureSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3387E7F176A71040016043F /* ConfigureSheet.xib */; };
@@ -18,17 +18,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E32223211768E2C200E71234 /* Squares.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Squares.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		E32223211768E2C200E71234 /* Stained Glass Grid.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stained Glass Grid.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E32223241768E2C200E71234 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		E32223261768E2C200E71234 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
 		E32223291768E2C200E71234 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		E322232A1768E2C200E71234 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		E322232B1768E2C200E71234 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		E322232E1768E2C200E71234 /* Squares-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Squares-Info.plist"; sourceTree = "<group>"; };
+		E322232E1768E2C200E71234 /* Stained Glass Grid-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Stained Glass Grid-Info.plist"; sourceTree = "<group>"; };
 		E32223301768E2C200E71234 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E32223321768E2C200E71234 /* Squares-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Squares-Prefix.pch"; sourceTree = "<group>"; };
-		E32223331768E2C200E71234 /* SquaresView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SquaresView.h; sourceTree = "<group>"; };
-		E32223341768E2C200E71234 /* SquaresView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SquaresView.m; sourceTree = "<group>"; };
+		E32223321768E2C200E71234 /* Stained Glass Grid-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Stained Glass Grid-Prefix.pch"; sourceTree = "<group>"; };
+		E32223331768E2C200E71234 /* StainedGlassGridView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StainedGlassGridView.h; sourceTree = "<group>"; };
+		E32223341768E2C200E71234 /* StainedGlassGridView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StainedGlassGridView.m; sourceTree = "<group>"; };
 		E322233B176913D000E71234 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
 		E322233C176913D000E71234 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
 		E3387E7F176A71040016043F /* ConfigureSheet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfigureSheet.xib; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		E32223161768E2C200E71234 = {
 			isa = PBXGroup;
 			children = (
-				E322232C1768E2C200E71234 /* Squares */,
+				E322232C1768E2C200E71234 /* Stained Glass Grid */,
 				E32223231768E2C200E71234 /* Frameworks */,
 				E32223221768E2C200E71234 /* Products */,
 			);
@@ -60,7 +60,7 @@
 		E32223221768E2C200E71234 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E32223211768E2C200E71234 /* Squares.saver */,
+				E32223211768E2C200E71234 /* Stained Glass Grid.saver */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,26 +85,26 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		E322232C1768E2C200E71234 /* Squares */ = {
+		E322232C1768E2C200E71234 /* Stained Glass Grid */ = {
 			isa = PBXGroup;
 			children = (
-				E32223331768E2C200E71234 /* SquaresView.h */,
-				E32223341768E2C200E71234 /* SquaresView.m */,
+				E32223331768E2C200E71234 /* StainedGlassGridView.h */,
+				E32223341768E2C200E71234 /* StainedGlassGridView.m */,
 				E322232D1768E2C200E71234 /* Supporting Files */,
 				E322233B176913D000E71234 /* Cell.h */,
 				E322233C176913D000E71234 /* Cell.m */,
 				E3387E7F176A71040016043F /* ConfigureSheet.xib */,
 				E3387E81176ABF480016043F /* Range.h */,
 			);
-			path = Squares;
+			path = "Stained Glass Grid";
 			sourceTree = "<group>";
 		};
 		E322232D1768E2C200E71234 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E322232E1768E2C200E71234 /* Squares-Info.plist */,
+				E322232E1768E2C200E71234 /* Stained Glass Grid-Info.plist */,
 				E322232F1768E2C200E71234 /* InfoPlist.strings */,
-				E32223321768E2C200E71234 /* Squares-Prefix.pch */,
+				E32223321768E2C200E71234 /* Stained Glass Grid-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -124,9 +124,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		E32223201768E2C200E71234 /* Squares */ = {
+		E32223201768E2C200E71234 /* Stained Glass Grid */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E32223381768E2C200E71234 /* Build configuration list for PBXNativeTarget "Squares" */;
+			buildConfigurationList = E32223381768E2C200E71234 /* Build configuration list for PBXNativeTarget "Stained Glass Grid" */;
 			buildPhases = (
 				E322231B1768E2C200E71234 /* Sources */,
 				E322231C1768E2C200E71234 /* Frameworks */,
@@ -138,9 +138,9 @@
 			);
 			dependencies = (
 			);
-			name = Squares;
+			name = "Stained Glass Grid";
 			productName = Squares;
-			productReference = E32223211768E2C200E71234 /* Squares.saver */;
+			productReference = E32223211768E2C200E71234 /* Stained Glass Grid.saver */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -152,7 +152,7 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "William Bowers";
 			};
-			buildConfigurationList = E322231A1768E2C200E71234 /* Build configuration list for PBXProject "Squares" */;
+			buildConfigurationList = E322231A1768E2C200E71234 /* Build configuration list for PBXProject "Stained Glass Grid" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -164,7 +164,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E32223201768E2C200E71234 /* Squares */,
+				E32223201768E2C200E71234 /* Stained Glass Grid */,
 			);
 		};
 /* End PBXProject section */
@@ -196,7 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E32223351768E2C200E71234 /* SquaresView.m in Sources */,
+				E32223351768E2C200E71234 /* StainedGlassGridView.m in Sources */,
 				E322233E176913D000E71234 /* Cell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,11 +279,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_ENABLE_OBJC_GC = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Squares/Squares-Prefix.pch";
-				INFOPLIST_FILE = "Squares/Squares-Info.plist";
+				GCC_PREFIX_HEADER = "Stained Glass Grid/Stained Glass Grid-Prefix.pch";
+				INFOPLIST_FILE = "Stained Glass Grid/Stained Glass Grid-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				MACOSX_DEPLOYMENT_TARGET = 10.6.8;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Stained Glass Grid";
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Debug;
@@ -295,11 +295,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_ENABLE_OBJC_GC = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Squares/Squares-Prefix.pch";
-				INFOPLIST_FILE = "Squares/Squares-Info.plist";
+				GCC_PREFIX_HEADER = "Stained Glass Grid/Stained Glass Grid-Prefix.pch";
+				INFOPLIST_FILE = "Stained Glass Grid/Stained Glass Grid-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				MACOSX_DEPLOYMENT_TARGET = 10.6.8;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Stained Glass Grid";
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Release;
@@ -307,7 +307,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E322231A1768E2C200E71234 /* Build configuration list for PBXProject "Squares" */ = {
+		E322231A1768E2C200E71234 /* Build configuration list for PBXProject "Stained Glass Grid" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E32223361768E2C200E71234 /* Debug */,
@@ -316,7 +316,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E32223381768E2C200E71234 /* Build configuration list for PBXNativeTarget "Squares" */ = {
+		E32223381768E2C200E71234 /* Build configuration list for PBXNativeTarget "Stained Glass Grid" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E32223391768E2C200E71234 /* Debug */,

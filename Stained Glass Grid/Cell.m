@@ -1,6 +1,6 @@
 //
 //  Cell.m
-//  Squares
+//  Stained Glass Grid
 //
 //  Created by William Bowers on 6/12/13.
 //  Copyright (c) 2013 William Bowers. All rights reserved.
@@ -33,9 +33,9 @@ timeBetweenUpdates:(Range)timeBetweenUpdates_
 - (NSColor*)randomColorBetweenMin:(float)min max:(float)max
 {
     return [NSColor colorWithCalibratedRed:SSRandomFloatBetween(min, max) / 255
-                                      green:SSRandomFloatBetween(min, max) / 255
-                                       blue:SSRandomFloatBetween(min, max) / 255
-                                      alpha:1];
+                                     green:SSRandomFloatBetween(min, max) / 255
+                                      blue:SSRandomFloatBetween(min, max) / 255
+                                     alpha:1];
 }
 
 - (NSColor*)randomColor

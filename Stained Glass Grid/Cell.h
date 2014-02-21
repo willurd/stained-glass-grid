@@ -1,6 +1,6 @@
 //
 //  Cell.h
-//  Squares
+//  Stained Glass Grid
 //
 //  Created by William Bowers on 6/12/13.
 //  Copyright (c) 2013 William Bowers. All rights reserved.

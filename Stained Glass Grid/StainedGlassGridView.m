@@ -1,17 +1,17 @@
 //
-//  SquaresView.m
-//  Squares
+//  StainedGlassGridView.m
+//  Stained Glass Grid
 //
 //  Created by William Bowers on 6/12/13.
 //  Copyright (c) 2013 William Bowers. All rights reserved.
 //
 
-#import "SquaresView.h"
+#import "StainedGlassGridView.h"
 #import "Range.h"
 
-@implementation SquaresView
+@implementation StainedGlassGridView
 
-static NSString * const ModuleName = @"net.williambowers.Squares";
+static NSString * const ModuleName = @"net.williambowers.StainedGlassGrid";
 
 - (id)initWithFrame:(NSRect)frame isPreview:(BOOL)isPreview
 {
